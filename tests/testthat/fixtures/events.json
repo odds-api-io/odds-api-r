@@ -1,0 +1,24 @@
+[
+  {
+    "id": 123456,
+    "home": "Manchester United",
+    "away": "Liverpool",
+    "homeId": 38,
+    "awayId": 42,
+    "date": "2025-10-15T15:00:00Z",
+    "status": "pending",
+    "sport": {"name": "Football", "slug": "football"},
+    "league": {"name": "England - Premier League", "slug": "england-premier-league"}
+  },
+  {
+    "id": 123457,
+    "home": "Arsenal",
+    "away": "Chelsea",
+    "homeId": 11,
+    "awayId": 12,
+    "date": "2025-10-16T19:00:00Z",
+    "status": "live",
+    "sport": {"name": "Football", "slug": "football"},
+    "league": {"name": "England - Premier League", "slug": "england-premier-league"}
+  }
+]

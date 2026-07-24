@@ -1,0 +1,37 @@
+{
+  "id": 123456,
+  "home": "Manchester United",
+  "away": "Liverpool",
+  "date": "2025-10-15T15:00:00Z",
+  "status": "pending",
+  "sport": {"name": "Football", "slug": "football"},
+  "league": {"name": "England - Premier League", "slug": "england-premier-league"},
+  "bookmakers": {
+    "Bet365": [
+      {
+        "name": "ML",
+        "updatedAt": "2025-10-04T10:30:00Z",
+        "odds": [
+          {"home": "2.10", "draw": "3.40", "away": "3.20"}
+        ]
+      },
+      {
+        "name": "Totals",
+        "updatedAt": "2025-10-04T10:31:00Z",
+        "odds": [
+          {"hdp": 2.5, "over": "1.90", "under": "1.90"},
+          {"hdp": 3, "over": "2.40", "under": "1.55"}
+        ]
+      }
+    ],
+    "SingBet": [
+      {
+        "name": "Asian Handicap",
+        "updatedAt": "2025-10-04T10:29:00Z",
+        "odds": [
+          {"hdp": -0.5, "home": "1.95", "away": "1.85"}
+        ]
+      }
+    ]
+  }
+}
