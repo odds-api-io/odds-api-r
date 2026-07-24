@@ -3,7 +3,7 @@ Title: Client for the 'Odds-API.io' Sports Betting Odds API
 Version: 0.1.0
 Authors@R:
     person("Markus", "Bjermeland", email = "markus@odds-api.io", role = c("aut", "cre"))
-Description: Query live and pre-match sports betting odds from the
+Description: Query live and upcoming sports betting odds from the
     'Odds-API.io' REST API <https://docs.odds-api.io>. Covers sports,
     bookmakers, leagues, events, per-event odds, value bets and arbitrage
     bets across 265+ bookmakers, returned as tidy data frames. An API key
