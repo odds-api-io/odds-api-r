@@ -1,6 +1,6 @@
 Package: oddsapiio
 Title: Client for the 'Odds-API.io' Sports Betting Odds API
-Version: 0.1.0
+Version: 0.1.1
 Authors@R:
     person("Markus", "Bjermeland", email = "markus@odds-api.io", role = c("aut", "cre"))
 Description: Query live and upcoming sports betting odds from the

@@ -1,3 +1,7 @@
+# oddsapiio 0.1.1
+
+* Fix invalid file URI in README (CRAN review feedback).
+
 # oddsapiio 0.1.0
 
 * Initial release.

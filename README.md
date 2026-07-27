@@ -2,7 +2,7 @@
 
 <!-- badges: start -->
 [![CRAN status](https://www.r-pkg.org/badges/version/oddsapiio)](https://CRAN.R-project.org/package=oddsapiio)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/license/mit)
 <!-- badges: end -->
 
 Official R client for [Odds-API.io](https://odds-api.io), a real-time sports betting odds API covering 265+ bookmakers across 10+ sports. Full API documentation lives at [docs.odds-api.io](https://docs.odds-api.io).
