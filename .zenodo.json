@@ -1,6 +1,6 @@
 {
   "title": "oddsapiio: Official R client for Odds-API.io",
-  "description": "Official R client for Odds-API.io, a real-time sports betting odds API covering 265+ bookmakers, 34 sports and 12,000+ leagues. The package returns sports, bookmakers, leagues, events, per-event odds, value bets and arbitrage bets as tidy data frames using httr2. Maintained by Outlier AS. Documentation at https://docs.odds-api.io.",
+  "description": "Official R client for Odds-API.io, a real-time sports betting odds API covering 365+ bookmakers, 34 sports and 12,000+ leagues. The package returns sports, bookmakers, leagues, events, per-event odds, value bets and arbitrage bets as tidy data frames using httr2. Maintained by Outlier AS. Documentation at https://docs.odds-api.io.",
   "creators": [
     { "name": "Outlier AS" }
   ],

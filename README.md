@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/license/mit)
 <!-- badges: end -->
 
-Official R client for [Odds-API.io](https://odds-api.io), a real-time sports betting odds API covering 265+ bookmakers across 34 sports and 12,000+ leagues.
+Official R client for [Odds-API.io](https://odds-api.io), a real-time sports betting odds API covering 365+ bookmakers across 34 sports and 12,000+ leagues.
 
 - Odds-API.io: https://odds-api.io
 - Documentation: https://docs.odds-api.io

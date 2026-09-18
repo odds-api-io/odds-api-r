@@ -6,7 +6,7 @@
 \alias{oddsapiio-package}
 \title{oddsapiio: Client for the 'Odds-API.io' Sports Betting Odds API}
 \description{
-Query live and pre-match sports betting odds from the 'Odds-API.io' REST API \url{https://docs.odds-api.io}. Covers sports, bookmakers, leagues, events, per-event odds, value bets and arbitrage bets across 265+ bookmakers, returned as tidy data frames. An API key is required; a free tier is available.
+Query live and pre-match sports betting odds from the 'Odds-API.io' REST API \url{https://docs.odds-api.io}. Covers sports, bookmakers, leagues, events, per-event odds, value bets and arbitrage bets across 365+ bookmakers, returned as tidy data frames. An API key is required; a free tier is available.
 }
 \seealso{
 Useful links:
