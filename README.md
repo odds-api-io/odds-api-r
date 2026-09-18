@@ -1,5 +1,7 @@
 # oddsapiio
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22836647.svg)](https://doi.org/10.5281/zenodo.22836647)
+
 <!-- badges: start -->
 [![CRAN status](https://www.r-pkg.org/badges/version/oddsapiio)](https://CRAN.R-project.org/package=oddsapiio)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/license/mit)
