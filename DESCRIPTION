@@ -9,7 +9,7 @@ Description: Query live and upcoming sports betting odds from the
     bets across 265+ bookmakers, returned as tidy data frames. An API key
     is required; a free tier is available.
 License: MIT + file LICENSE
-URL: https://odds-api.io, https://github.com/odds-api-io/odds-api-r
+URL: https://odds-api.io, https://docs.odds-api.io, https://github.com/odds-api-io/odds-api-r
 BugReports: https://github.com/odds-api-io/odds-api-r/issues
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

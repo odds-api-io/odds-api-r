@@ -5,7 +5,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/license/mit)
 <!-- badges: end -->
 
-Official R client for [Odds-API.io](https://odds-api.io), a real-time sports betting odds API covering 265+ bookmakers across 10+ sports. Full API documentation lives at [docs.odds-api.io](https://docs.odds-api.io).
+Official R client for [Odds-API.io](https://odds-api.io), a real-time sports betting odds API covering 265+ bookmakers across 34 sports and 12,000+ leagues.
+
+- Odds-API.io: https://odds-api.io
+- Documentation: https://docs.odds-api.io
 
 The free tier includes 100 requests/hour, no credit card required.
 
@@ -93,3 +96,11 @@ oa_arbitrage_bets(c("Bet365", "SingBet"))
 ## License
 
 MIT
+
+## Citation
+
+If you use this package in research or a publication, please cite it. Citation metadata is in [CITATION.cff](CITATION.cff) (GitHub renders a "Cite this repository" button from it) and Zenodo metadata is in `.zenodo.json`.
+
+```
+Outlier AS. oddsapiio: Official R client for Odds-API.io (version 0.1.1). https://github.com/odds-api-io/odds-api-r
+```

@@ -2,3 +2,5 @@
 ^\.github$
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^\.zenodo\.json$
+^CITATION\.cff$
