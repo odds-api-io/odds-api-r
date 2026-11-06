@@ -1,3 +1,7 @@
+# oddsapiio 0.2.1
+
+* Documentation: `oa_value_bets()` now explains that `expectedValue` is bookmaker odds / fair odds x 100 (103.42 is a 3.42% edge, edge in percent = `expectedValue - 100`). The example filtered on `expectedValue > 0.03`, which kept every row; it now filters on `expectedValue - 100 >= 3`.
+
 # oddsapiio 0.2.0
 
 Covers the full current Odds-API.io v3 REST API. This release also includes the 0.1.2 changes, which never reached CRAN: documentation and errors point to paid plans at odds-api.io/pricing (new free keys are paused) and give the current bookmaker count (450+).

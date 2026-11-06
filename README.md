@@ -152,5 +152,5 @@ MIT
 If you use this package in research or a publication, please cite it. Citation metadata is in [CITATION.cff](https://github.com/odds-api-io/odds-api-r/blob/main/CITATION.cff) (GitHub renders a "Cite this repository" button from it).
 
 ```
-Outlier AS. oddsapiio: Official R client for Odds-API.io (version 0.2.0). https://github.com/odds-api-io/odds-api-r
+Outlier AS. oddsapiio: Official R client for Odds-API.io (version 0.2.1). https://github.com/odds-api-io/odds-api-r
 ```
