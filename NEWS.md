@@ -1,3 +1,7 @@
+# oddsapiio 0.1.2
+
+* Documentation and error messages now point to paid plans at odds-api.io/pricing (new free keys are paused) and give the current bookmaker count (450+).
+
 # oddsapiio 0.1.1
 
 * Fix invalid file URI in README (CRAN review feedback).
