@@ -23,10 +23,11 @@ oa_events(
 \item{league}{Optional league slug, e.g. \code{"england-premier-league"}.}
 
 \item{status}{Optional statuses to include: any of \code{"pending"}, \code{"live"},
-\code{"settled"}. A vector is collapsed to a comma-separated list.}
+\code{"settled"}, \code{"cancelled"}. A vector is collapsed to a comma-separated
+list.}
 
 \item{from, to}{Optional RFC 3339 date-times bounding the event window,
-e.g. \code{"2026-09-01T00:00:00Z"}.}
+e.g. \code{"2026-09-01T00:00:00Z"}, or \code{POSIXct}/\code{Date} values.}
 
 \item{limit}{Optional maximum number of events (capped at 5000).}
 
@@ -44,9 +45,15 @@ variable. Not required for this endpoint.}
 A data frame with one row per event.
 }
 \description{
-Returns upcoming, live or settled events. When \code{to} is omitted the API
-returns events within the next 14 days, hard-capped at 5000 rows per
-response; use \code{limit} and \code{skip} to paginate.
+Returns upcoming, live, settled or cancelled events. When \code{to} is omitted
+the API returns events within the next 14 days, hard-capped at 5000 rows
+per response; use \code{limit} and \code{skip} to paginate.
+}
+\details{
+Scores are flattened into columns such as \code{scores.home}, \code{scores.away},
+\code{scores.periods.p1.home} and \code{scores.periods.ft.home}. Period keys are
+\code{p1} to \code{pN} (each period on its own), \code{ft} (end of regulation), \code{ot}
+(after overtime) and \code{ap} (after penalties).
 }
 \examples{
 \dontrun{

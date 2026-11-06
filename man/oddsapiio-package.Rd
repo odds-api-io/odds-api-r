@@ -6,12 +6,13 @@
 \alias{oddsapiio-package}
 \title{oddsapiio: Client for the 'Odds-API.io' Sports Betting Odds API}
 \description{
-Query live and pre-match sports betting odds from the 'Odds-API.io' REST API \url{https://docs.odds-api.io}. Covers sports, bookmakers, leagues, events, per-event odds, value bets and arbitrage bets across 450+ bookmakers, returned as tidy data frames. An API key from a paid plan is required.
+Query live and upcoming sports betting odds from the 'Odds-API.io' REST API \url{https://docs.odds-api.io}. Covers sports, markets, bookmakers, leagues, participants, events, per-event and multi-event odds, odds deltas, odds movements, odds summaries, value bets, arbitrage bets, dropping odds, historical events, odds and closing lines, bet settlement and grading, outright (futures) odds and results, and bookmaker id mappings across 450+ bookmakers, returned as tidy data frames. An API key from a paid plan is required.
 }
 \seealso{
 Useful links:
 \itemize{
   \item \url{https://odds-api.io}
+  \item \url{https://docs.odds-api.io}
   \item \url{https://github.com/odds-api-io/odds-api-r}
   \item Report bugs at \url{https://github.com/odds-api-io/odds-api-r/issues}
 }

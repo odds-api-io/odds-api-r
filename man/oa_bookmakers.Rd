@@ -11,8 +11,10 @@ oa_bookmakers(api_key = NULL)
 variable. Not required for this endpoint.}
 }
 \value{
-A data frame with one row per bookmaker (columns \code{name} and
-\code{active}).
+A data frame with one row per bookmaker, with columns \code{name},
+\code{active}, \code{createdAt}, \code{status} (\code{"ok"}, \code{"degraded"} or \code{"down"}) and
+\code{reason} (\code{NA} when the status is ok, otherwise \code{"maintenance"} or
+\code{"unavailable"}).
 }
 \description{
 Returns the bookmakers covered by 'Odds-API.io'. This endpoint does not
@@ -21,6 +23,6 @@ require an API key.
 \examples{
 \dontrun{
 bookmakers <- oa_bookmakers()
-head(bookmakers)
+subset(bookmakers, status != "ok")
 }
 }
