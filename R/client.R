@@ -8,7 +8,7 @@ oa_api_key <- function(api_key = NULL) {
   if (!is.character(key) || length(key) != 1 || !nzchar(key)) {
     stop(
       "No API key found. Pass `api_key` or set the ODDS_API_KEY environment ",
-      "variable. Get a free key at https://odds-api.io.",
+      "variable. Get an API key at https://odds-api.io/pricing.",
       call. = FALSE
     )
   }
@@ -44,15 +44,14 @@ oa_error_body <- function(resp) {
     as.character(status),
     "401" = paste0(
       "Invalid or missing API key. Check ODDS_API_KEY or the `api_key` ",
-      "argument. Get a free key at https://odds-api.io."
+      "argument. Get an API key at https://odds-api.io/pricing."
     ),
     "403" = paste0(
       "Your API key does not have access to this endpoint. Some endpoints, ",
-      "such as dropping odds, require a paid plan. The free tier covers the ",
-      "core endpoints at 100 requests/hour. See https://odds-api.io/pricing."
+      "such as dropping odds, are not included in every plan. See https://odds-api.io/pricing."
     ),
     "429" = paste0(
-      "Rate limit exceeded. The free tier allows 100 requests/hour. Check ",
+      "Rate limit exceeded for your plan. Check ",
       "the x-ratelimit-reset response header and retry with backoff, or ",
       "upgrade at https://odds-api.io/pricing."
     ),

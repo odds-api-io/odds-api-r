@@ -7,12 +7,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/license/mit)
 <!-- badges: end -->
 
-Official R client for [Odds-API.io](https://odds-api.io), a real-time sports betting odds API covering 365+ bookmakers across 34 sports and 12,000+ leagues.
+Official R client for [Odds-API.io](https://odds-api.io), a real-time sports betting odds API covering 450+ bookmakers across 34 sports and 12,000+ leagues.
 
 - Odds-API.io: https://odds-api.io
 - Documentation: https://docs.odds-api.io
 
-The free tier includes 100 requests/hour, no credit card required.
+An API key from a paid plan is required; see https://odds-api.io/pricing.
 
 ## Installation
 
@@ -31,7 +31,7 @@ remotes::install_github("odds-api-io/odds-api-r")
 
 ## Authentication
 
-Sign up at [odds-api.io](https://odds-api.io) to get a free API key, then set it as an environment variable (for example in `.Renviron`):
+Get an API key from a paid plan at [odds-api.io/pricing](https://odds-api.io/pricing), then set it as an environment variable (for example in `.Renviron`):
 
 ```r
 Sys.setenv(ODDS_API_KEY = "your-key")
