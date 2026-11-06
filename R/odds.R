@@ -287,11 +287,14 @@ oa_summary_df <- function(events) {
 #'   sport, league) is included in the result.
 #' @inheritParams oa_sports
 #' @return A data frame with one row per value bet, including the bet side,
-#'   expected value and bookmaker odds.
+#'   expected value and bookmaker odds. `expectedValue` is bookmaker odds /
+#'   fair odds x 100: 103.42 is a 3.42% edge, so the edge in percent is
+#'   `expectedValue - 100`. Values below 100 are a negative edge.
 #' @examples
 #' \dontrun{
 #' vb <- oa_value_bets("Bet365", include_event_details = TRUE)
-#' vb[vb$expectedValue > 0.03, ]
+#' # Bets with at least a 3% edge
+#' vb[vb$expectedValue - 100 >= 3, ]
 #' }
 #' @export
 oa_value_bets <- function(bookmaker, sport = NULL, league = NULL,

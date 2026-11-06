@@ -27,7 +27,9 @@ variable. Not required for this endpoint.}
 }
 \value{
 A data frame with one row per value bet, including the bet side,
-expected value and bookmaker odds.
+expected value and bookmaker odds. \code{expectedValue} is bookmaker odds /
+fair odds x 100: 103.42 is a 3.42\% edge, so the edge in percent is
+\code{expectedValue - 100}. Values below 100 are a negative edge.
 }
 \description{
 Returns prices at one bookmaker that are above a fair-odds estimate
@@ -36,6 +38,7 @@ calculated from the market consensus.
 \examples{
 \dontrun{
 vb <- oa_value_bets("Bet365", include_event_details = TRUE)
-vb[vb$expectedValue > 0.03, ]
+# Bets with at least a 3\% edge
+vb[vb$expectedValue - 100 >= 3, ]
 }
 }
