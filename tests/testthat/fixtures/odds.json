@@ -26,7 +26,7 @@
     ],
     "SingBet": [
       {
-        "name": "Asian Handicap",
+        "name": "Spread",
         "updatedAt": "2025-10-04T10:29:00Z",
         "odds": [
           {"hdp": -0.5, "home": "1.95", "away": "1.85"}

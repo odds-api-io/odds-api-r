@@ -4,10 +4,12 @@
 \alias{oa_leagues}
 \title{List leagues for a sport}
 \usage{
-oa_leagues(sport, api_key = NULL)
+oa_leagues(sport, all = FALSE, api_key = NULL)
 }
 \arguments{
 \item{sport}{Sport slug, e.g. \code{"football"}. See \code{\link[=oa_sports]{oa_sports()}}.}
+
+\item{all}{If \code{TRUE}, also include leagues without active events.}
 
 \item{api_key}{API key. Defaults to the \code{ODDS_API_KEY} environment
 variable. Not required for this endpoint.}

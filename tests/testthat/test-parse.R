@@ -1,6 +1,3 @@
-read_fixture <- function(name) {
-  paste(readLines(test_path("fixtures", name), warn = FALSE), collapse = "\n")
-}
 
 test_that("event arrays parse to a tidy data frame", {
   df <- oddsapiio:::oa_parse_df(read_fixture("events.json"))

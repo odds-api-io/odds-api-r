@@ -38,3 +38,12 @@ test_that("league without sport errors locally in oa_value_bets", {
     "requires `sport`"
   )
 })
+
+test_that("error bodies put the server message first", {
+  resp <- json_response('{"error":"Unknown markets: Foo"}', status = 400L)
+  expect_equal(oddsapiio:::oa_error_body(resp), "Unknown markets: Foo")
+  resp <- json_response('{"error":"Invalid API key"}', status = 401L)
+  out <- oddsapiio:::oa_error_body(resp)
+  expect_equal(out[1], "Invalid API key")
+  expect_match(out[2], "odds-api.io/pricing", fixed = TRUE)
+})
