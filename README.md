@@ -8,6 +8,15 @@
 
 Official R client for [Odds-API.io](https://odds-api.io), a real-time sports betting odds API covering 450+ bookmakers across 34 sports. Every function returns a tidy data frame.
 
+## Documentation
+
+- [Quickstart: make your first request](https://docs.odds-api.io/quickstart)
+- [SDK guide for R, Python and Node.js](https://docs.odds-api.io/guides/sdks)
+- [Fetching pre-match and live odds](https://docs.odds-api.io/guides/fetching-odds)
+- [Historical odds and closing lines](https://docs.odds-api.io/guides/historical)
+- [Find value bets](https://docs.odds-api.io/guides/value-bets) and [arbitrage opportunities](https://docs.odds-api.io/guides/arbitrage-bets)
+- [Full API reference](https://docs.odds-api.io/api-reference/introduction)
+
 ## Quick start
 
 ```r
