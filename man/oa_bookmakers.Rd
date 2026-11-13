@@ -18,7 +18,8 @@ A data frame with one row per bookmaker, with columns \code{name},
 }
 \description{
 Returns the bookmakers covered by 'Odds-API.io'. This endpoint does not
-require an API key.
+require an API key. Bookmaker coverage by sport and market is listed at
+\url{https://odds-api.io/sportsbooks#coverage}.
 }
 \examples{
 \dontrun{

@@ -14,8 +14,8 @@ oa_historical_odds(event_id, bookmakers, markets = NULL, api_key = NULL)
 
 \item{markets}{Optional character vector of market names to keep (max
 40), e.g. \code{c("ML", "Spread", "Totals")}. Matching is case-insensitive
-but must be the full name; see \code{\link[=oa_markets]{oa_markets()}}. All markets are returned
-when omitted.}
+but must be the full name; see \code{\link[=oa_markets]{oa_markets()}} or the market reference at
+\url{https://odds-api.io/markets}. All markets are returned when omitted.}
 
 \item{api_key}{API key. Defaults to the \code{ODDS_API_KEY} environment
 variable. Not required for this endpoint.}

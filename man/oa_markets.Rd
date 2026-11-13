@@ -23,7 +23,9 @@ Returns the market catalogue: every market currently served, with how to
 parse it. Use it to look up exact market names for the \code{markets} argument
 of \code{\link[=oa_odds]{oa_odds()}} and related functions. Market names are, for example,
 \code{"ML"}, \code{"Spread"}, \code{"Totals"}, \code{"Both Teams To Score"} and \code{"Totals HT"}.
-This endpoint does not require an API key.
+This endpoint does not require an API key. The same catalogue is browsable
+per sport at \url{https://odds-api.io/markets}, for example
+\url{https://odds-api.io/markets/football}.
 }
 \examples{
 \dontrun{
