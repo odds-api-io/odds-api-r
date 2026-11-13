@@ -1,5 +1,6 @@
 # oddsapiio 0.2.1
 
+* Documentation: `oa_markets()`, `oa_odds()` and `oa_bookmakers()` link to the public market reference (<https://odds-api.io/markets>) and bookmaker coverage pages.
 * Documentation: `oa_value_bets()` now explains that `expectedValue` is bookmaker odds / fair odds x 100 (103.42 is a 3.42% edge, edge in percent = `expectedValue - 100`). The example filtered on `expectedValue > 0.03`, which kept every row; it now filters on `expectedValue - 100 >= 3`.
 
 # oddsapiio 0.2.0

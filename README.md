@@ -109,7 +109,7 @@ oa_outright_odds(golf$id[1], c("DraftKings", "Betfair Exchange"))
 oa_outright_results(golf$id[1])
 ```
 
-Market names are the ones served by the API, such as `ML`, `Spread`, `Totals`, `Both Teams To Score` and `Totals HT`; `oa_markets()` lists them per sport. Period scores use the keys `p1` to `pN`, `ft` (regulation), `ot` (after overtime) and `ap` (after penalties).
+Market names are the ones served by the API, such as `ML`, `Spread`, `Totals`, `Both Teams To Score` and `Totals HT`; `oa_markets()` lists them per sport, and the [market reference](https://odds-api.io/markets) shows them per sport on the web (for example [football](https://odds-api.io/markets/football)). Bookmaker coverage by sport is at [odds-api.io/sportsbooks](https://odds-api.io/sportsbooks#coverage). Period scores use the keys `p1` to `pN`, `ft` (regulation), `ot` (after overtime) and `ap` (after penalties).
 
 ## Functions
 

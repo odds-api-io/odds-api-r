@@ -8,8 +8,8 @@
 #'   `c("Bet365", "SingBet")`. Required by the API.
 #' @param markets Optional character vector of market names to keep (max
 #'   40), e.g. `c("ML", "Spread", "Totals")`. Matching is case-insensitive
-#'   but must be the full name; see [oa_markets()]. All markets are returned
-#'   when omitted.
+#'   but must be the full name; see [oa_markets()] or the market reference at
+#'   <https://odds-api.io/markets>. All markets are returned when omitted.
 #' @inheritParams oa_sports
 #' @return A data frame with one row per odds line, with columns `eventId`,
 #'   `bookmaker`, `market`, `updatedAt` and the price columns present in the

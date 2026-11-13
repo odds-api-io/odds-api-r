@@ -19,7 +19,8 @@ oa_sports <- function(api_key = NULL) {
 #' List available bookmakers
 #'
 #' Returns the bookmakers covered by 'Odds-API.io'. This endpoint does not
-#' require an API key.
+#' require an API key. Bookmaker coverage by sport and market is listed at
+#' <https://odds-api.io/sportsbooks#coverage>.
 #'
 #' @inheritParams oa_sports
 #' @return A data frame with one row per bookmaker, with columns `name`,
@@ -89,7 +90,9 @@ oa_selection <- function(json) {
 #' parse it. Use it to look up exact market names for the `markets` argument
 #' of [oa_odds()] and related functions. Market names are, for example,
 #' `"ML"`, `"Spread"`, `"Totals"`, `"Both Teams To Score"` and `"Totals HT"`.
-#' This endpoint does not require an API key.
+#' This endpoint does not require an API key. The same catalogue is browsable
+#' per sport at <https://odds-api.io/markets>, for example
+#' <https://odds-api.io/markets/football>.
 #'
 #' @param sport Optional sport slug, e.g. `"football"`. When omitted, markets
 #'   for all sports are returned.
