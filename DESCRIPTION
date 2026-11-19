@@ -9,7 +9,7 @@ Description: Query live and upcoming sports betting odds from the
     multi-event odds, odds deltas, odds movements, odds summaries, value
     bets, arbitrage bets, dropping odds, historical events, odds and
     closing lines, bet settlement and grading, outright (futures) odds and
-    results, and bookmaker id mappings across 450+ bookmakers, returned as
+    results, and bookmaker id mappings across 500+ bookmakers, returned as
     tidy data frames. An API key from a paid plan is required.
 License: MIT + file LICENSE
 URL: https://odds-api.io, https://docs.odds-api.io, https://github.com/odds-api-io/odds-api-r
