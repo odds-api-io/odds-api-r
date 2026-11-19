@@ -6,7 +6,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22836647.svg)](https://doi.org/10.5281/zenodo.22836647)
 <!-- badges: end -->
 
-Official R client for [Odds-API.io](https://odds-api.io), a real-time sports betting odds API covering 450+ bookmakers across 34 sports. Every function returns a tidy data frame.
+Official R client for [Odds-API.io](https://odds-api.io), a real-time sports betting odds API covering 500+ bookmakers across 34 sports. Every function returns a tidy data frame.
 
 ## Documentation
 
@@ -37,7 +37,7 @@ An API key from a paid plan is required: see [odds-api.io/pricing](https://odds-
 
 ## Features
 
-- Pre-match and live odds from 450+ bookmakers, one row per price line, filtered to the markets you need
+- Pre-match and live odds from 500+ bookmakers, one row per price line, filtered to the markets you need
 - Odds for up to 10 events per request, and a delta feed of changed odds (`oa_odds_updated()`)
 - Odds movements (price history) and an odds summary with best, average and fair prices across bookmakers
 - Value bets, arbitrage bets and dropping odds
