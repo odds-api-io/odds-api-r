@@ -6,7 +6,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22836647.svg)](https://doi.org/10.5281/zenodo.22836647)
 <!-- badges: end -->
 
-Official R client for [Odds-API.io](https://odds-api.io), a real-time sports betting odds API covering 500+ bookmakers across 34 sports. Every function returns a tidy data frame.
+Official R client for [Odds-API.io](https://odds-api.io), a real-time sports betting odds API covering 500+ bookmakers across 37 sports. Every function returns a tidy data frame.
 
 ## Documentation
 
